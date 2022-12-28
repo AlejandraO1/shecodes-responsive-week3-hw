@@ -4,6 +4,24 @@
   --box-shadow: 0 5px 10px rgba(0, 0, 0, 0.3);
 }
 
+@media (max-width: 576px) {
+  body {
+    text-align: center;
+  }
+
+  .primary-link {
+    display: block;
+    width: fit-content;
+    margin: 0 auto;
+  }
+
+  .col-6 {
+    display: block;
+    width: 100%;
+    margin: 10px auto;
+  }
+}
+
 body {
   margin-top: 100px;
 }
